@@ -9,6 +9,20 @@ This **VS Code** extension provides easy access to **Django's management command
 
 ## Features & Usage
 
+### 🚀 Django > Start/Create/New Project
+
+Initiate a new Django project.
+
+- Shortcut: `Ctrl+Shift+P` > "Django > Start/Create/New Project"
+- Note: You can't be inside a project if you want to use this command.
+
+### 📦 Django > Start/Create/New App
+
+Begin a new app within your Django project.
+
+- Shortcut: `Ctrl+Shift+P` > "Django > Start/Create/New App"
+- Note: You must be inside the project folder to use this command.
+
 ### 🛠 Django > Check Project
 
 Checks the entire Django project for potential problems.
@@ -20,30 +34,22 @@ Checks the entire Django project for potential problems.
 Creates a superuser account (a user with all permissions).
 
 - Shortcut: `Ctrl+Shift+P` > "Django > Create/Add Superuser"
-
-### 🚀 Django > Start/Create/New Project
-
-Initiate a new Django project.
-
-- Shortcut: `Ctrl+Shift+P` > "Django > Start/Create/New Project"
-
-### 📦 Django > Start/Create/New App
-
-Begin a new app within your Django project.
-
-- Shortcut: `Ctrl+Shift+P` > "Django > Start/Create/New App"
+- Note: This action operates using a custom injected command.
+- Note: This action assumes username@example.com email format.
 
 ### 🌐 Django > Run/Start Server
 
 Launch the Django development server.
 
 - Shortcut: `Ctrl+Shift+P` > "Django > Run/Start Server"
+- Note: this action will try to launch the server on the following ports in order **[8000, 8080, 8001, 8002, 8003, 8004]**
 
 ### 🛑 Django > Stop/Kill Running Server
 
 Terminate the running Django development server.
 
 - Shortcut: `Ctrl+Shift+P` > "Django > Stop/Kill Running Server"
+- Note: Only kills the process spawned by this extension.
 
 ### 🔀 Django > Make Migrations
 
@@ -80,6 +86,7 @@ Populate the database with data from a file.
 Reset the database by removing all data and recreating tables.
 
 - Shortcut: `Ctrl+Shift+P` > "Django > Flush Database"
+- Note: This action required confirmation.
 
 ### 🖥 Django > Open Database Shell (dbshell)
 
@@ -98,6 +105,7 @@ Begin the Python interactive interpreter with Django settings imported.
 Dispatch a test email to specified email addresses.
 
 - Shortcut: `Ctrl+Shift+P` > "Django > Send Test Email"
+- Note: You might need to set up SMTP server settings first.
 
 ### 🗂 Django > Collect Static Files
 
@@ -122,7 +130,13 @@ Update a user's password.
 Automatically register all models of a Django app in the admin dashboard.
 
 - Shortcut: `Ctrl+Shift+P` > "Django > Adminify Models"
+- Note: If you already have an admin.py file it will be automatically backed-up before creating the new one.
 
+---
+
+![Django Extension Logo](./images/rocket.gif)
+
+---
 ## Feedback and Contributions
 
 Feedback, bug reports, and pull requests are welcome. Feel free to contribute and enhance the features of this extension.
