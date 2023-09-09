@@ -10,6 +10,7 @@
     "type": "git",
     "url": "https://github.com/theHamdiz/django-man.git"
   },
+  "publisher": "Ahmad-Hamdi",
   "icon": "images/logo.png",
   "categories": [
     "Other"
