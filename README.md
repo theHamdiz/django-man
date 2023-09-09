@@ -1,71 +1,130 @@
-# django-man README
 
-This is the README for your extension "django-man". After writing up a brief description, we recommend including the following sections.
+# Django Management Extension for VS Code 
 
-## Features
+![Django Extension Logo](./images/logo.png)
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+### Version: 0.0.1
 
-For example if there is an image subfolder under your extension project workspace:
+This **VS Code** extension provides easy access to **Django's management commands** right from the editor, enhancing the developer experience for Django projects.
 
-\!\[feature X\]\(images/feature-x.png\)
+## Features & Usage
 
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+### 🛠 Django > Check Project
 
-## Requirements
+Checks the entire Django project for potential problems.
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+- Shortcut: `Ctrl+Shift+P` > "Django > Check Project"
 
-## Extension Settings
+### 👤 Django > Create/Add Superuser
 
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
+Creates a superuser account (a user with all permissions).
 
-For example:
+- Shortcut: `Ctrl+Shift+P` > "Django > Create/Add Superuser"
 
-This extension contributes the following settings:
+### 🚀 Django > Start/Create/New Project
 
-* `myExtension.enable`: Enable/disable this extension.
-* `myExtension.thing`: Set to `blah` to do something.
+Initiate a new Django project.
 
-## Known Issues
+- Shortcut: `Ctrl+Shift+P` > "Django > Start/Create/New Project"
 
-Calling out known issues can help limit users opening duplicate issues against your extension.
+### 📦 Django > Start/Create/New App
 
-## Release Notes
+Begin a new app within your Django project.
 
-Users appreciate release notes as you update your extension.
+- Shortcut: `Ctrl+Shift+P` > "Django > Start/Create/New App"
 
-### 1.0.0
+### 🌐 Django > Run/Start Server
 
-Initial release of ...
+Launch the Django development server.
 
-### 1.0.1
+- Shortcut: `Ctrl+Shift+P` > "Django > Run/Start Server"
 
-Fixed issue #.
+### 🛑 Django > Stop/Kill Running Server
 
-### 1.1.0
+Terminate the running Django development server.
 
-Added features X, Y, and Z.
+- Shortcut: `Ctrl+Shift+P` > "Django > Stop/Kill Running Server"
 
----
+### 🔀 Django > Make Migrations
 
-## Following extension guidelines
+Generate new migrations based on changes detected.
 
-Ensure that you've read through the extensions guidelines and follow the best practices for creating your extension.
+- Shortcut: `Ctrl+Shift+P` > "Django > Make Migrations"
 
-* [Extension Guidelines](https://code.visualstudio.com/api/references/extension-guidelines)
+### 📥 Django > Migrate
 
-## Working with Markdown
+Apply migrations to sync the database schema.
 
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
+- Shortcut: `Ctrl+Shift+P` > "Django > Migrate"
 
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
+### 📜 Django > Show Migrations
 
-## For more information
+Display a project's migrations and their status.
 
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+- Shortcut: `Ctrl+Shift+P` > "Django > Show Migrations"
 
-**Enjoy!**
+### 💾 Django > Dump Data
+
+Outputs the contents of the database to a file.
+
+- Shortcut: `Ctrl+Shift+P` > "Django > Dump Data"
+
+### 🔄 Django > Load Data
+
+Populate the database with data from a file.
+
+- Shortcut: `Ctrl+Shift+P` > "Django > Load Data"
+
+### 🗑 Django > Flush Database
+
+Reset the database by removing all data and recreating tables.
+
+- Shortcut: `Ctrl+Shift+P` > "Django > Flush Database"
+
+### 🖥 Django > Open Database Shell (dbshell)
+
+Start the database shell.
+
+- Shortcut: `Ctrl+Shift+P` > "Django > Open Database Shell (dbshell)"
+
+### 🐚 Django > Open Django Shell
+
+Begin the Python interactive interpreter with Django settings imported.
+
+- Shortcut: `Ctrl+Shift+P` > "Django > Open Django Shell"
+
+### 📧 Django > Send Test Email
+
+Dispatch a test email to specified email addresses.
+
+- Shortcut: `Ctrl+Shift+P` > "Django > Send Test Email"
+
+### 🗂 Django > Collect Static Files
+
+Amass all static files in your apps to a central location.
+
+- Shortcut: `Ctrl+Shift+P` > "Django > Collect Static Files"
+
+### ⌛ Django > Clear Expired Sessions
+
+Clear out expired user sessions.
+
+- Shortcut: `Ctrl+Shift+P` > "Django > Clear Expired Sessions"
+
+### 🔑 Django > Change User Password
+
+Update a user's password.
+
+- Shortcut: `Ctrl+Shift+P` > "Django > Change User Password"
+
+### 📋 Django > Adminify Models
+
+Automatically register all models of a Django app in the admin dashboard.
+
+- Shortcut: `Ctrl+Shift+P` > "Django > Adminify Models"
+
+## Feedback and Contributions
+
+Feedback, bug reports, and pull requests are welcome. Feel free to contribute and enhance the features of this extension.
+
+Contact me at: contact@hamdiz.me

@@ -1,11 +1,12 @@
 {
   "name": "django-man",
-  "displayName": "django-man",
+  "displayName": "Django Manager",
   "description": "An extension to execute django project commands from within VSCode Command Center.",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.82.0"
   },
+  "icon": "images/logo.png",
   "categories": [
     "Other"
   ],
@@ -14,20 +15,28 @@
   "contributes": {
     "commands": [
       {
+        "command": "django-man.check",
+        "title": "Django > Check Project"
+      },
+      {
+        "command": "django-man.createsuperuser",
+        "title": "Django > Create/Add Superuser"
+      },
+      {
         "command": "django-man.startproject",
-        "title": "Django > Start Project"
+        "title": "Django > Start/Create/New Project"
       },
       {
         "command": "django-man.startapp",
-        "title": "Django > Start App"
+        "title": "Django > Start/Create/New App"
       },
       {
         "command": "django-man.runserver",
-        "title": "Django > Run Server"
+        "title": "Django > Run/Start Server"
       },
       {
         "command": "django-man.stopserver",
-        "title": "Django > Stop Running Server"
+        "title": "Django > Stop/Kill Running Server"
       },
       {
         "command": "django-man.makemigrations",
@@ -36,6 +45,50 @@
       {
         "command": "django-man.migrate",
         "title": "Django > Migrate"
+      },
+      {
+        "command": "django-man-showmigrations",
+        "title": "Django > Show Migrations"
+      },
+      {
+        "command": "django-man-dumpdata",
+        "title": "Django > Dump Data"
+      },
+      {
+        "command": "django-man-loaddata",
+        "title": "Django > Load Data"
+      },
+      {
+        "command": "django-man-flush",
+        "title": "Django > Flush Database"
+      },
+      {
+        "command": "django-man-dbshell",
+        "title": "Django > Open Database Shell (dbshell)"
+      },
+      {
+        "command": "django-man-shell",
+        "title": "Django > Open Django Shell"
+      },
+      {
+        "command": "django-man-sendtestemail",
+        "title": "Django > Send Test Email"
+      },
+      {
+        "command": "django-man-collectstatic",
+        "title": "Django > Collect Static Files"
+      },
+      {
+        "command": "django-man-clearsessions",
+        "title": "Django > Clear Expired Sessions"
+      },
+      {
+        "command": "django-man-changepassword",
+        "title": "Django > Change User Password"
+      },
+      {
+        "command": "django-man.adminifyModels",
+        "title": "Django > Adminify Models"
       }
     ]
   },
