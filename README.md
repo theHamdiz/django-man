@@ -15,6 +15,7 @@ Initiate a new Django project.
 
 - Shortcut: `Ctrl+Shift+P` > "Django > Start/Create/New Project"
 - Note: You can't be inside a project if you want to use this command.
+- Note: This will create a django project and automatically `cd` into it within the same VS Code window.
 
 ### 📦 Django > Start/Create/New App
 
@@ -74,6 +75,7 @@ Display a project's migrations and their status.
 Outputs the contents of the database to a file.
 
 - Shortcut: `Ctrl+Shift+P` > "Django > Dump Data"
+- Note: Supported exports are `(json, xml, yaml)`
 
 ### 🔄 Django > Load Data
 
@@ -112,6 +114,7 @@ Dispatch a test email to specified email addresses.
 Amass all static files in your apps to a central location.
 
 - Shortcut: `Ctrl+Shift+P` > "Django > Collect Static Files"
+- Note: You might need to set up Static Files first.
 
 ### ⌛ Django > Clear Expired Sessions
 
@@ -130,6 +133,7 @@ Update a user's password.
 Automatically register all models of a Django app in the admin dashboard.
 
 - Shortcut: `Ctrl+Shift+P` > "Django > Adminify Models"
+- Note: You must choose an app first.
 - Note: If you already have an admin.py file it will be automatically backed-up before creating the new one.
 
 ---

@@ -57,7 +57,10 @@ export function activate(context: vscode.ExtensionContext) {
 			const currentDir = vscode.workspace.workspaceFolders
 				? vscode.workspace.workspaceFolders[0].uri.fsPath
 				: undefined;
-
+			if (currentDir && isDjangoProject(currentDir)) {
+				vscode.window.showErrorMessage("You can't start a project within another project, did you mean start app?");
+				return;
+			}
 			if (currentDir && !isDjangoProject(currentDir)) {
 				vscode.window
 					.showInputBox({
