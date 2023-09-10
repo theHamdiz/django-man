@@ -20,5 +20,6 @@ All notable changes to the "django-man" extension will be documented in this fil
 ## [V 0.0.3]
 
 - Fixed readme file issues.
+- Added keywords & proper categories to the extension.
 
 ---
