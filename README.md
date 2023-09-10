@@ -3,9 +3,13 @@
 
 ![Django Extension Logo](./images/logo.png)
 
-### Version: 0.0.1
+### Version: 0.0.3
 
-This **VS Code** extension provides easy access to **Django's management commands** right from the editor, enhancing the developer experience for Django projects.
+This **VS Code** extension provides easy access to **Django's management commands** right from the command center, enhancing the developer experience for Django projects.
+
+🔥 Works with both **Django 4.x** and **Django 3.x**
+
+🏋🏻 It's `django` management but on *steroids*.
 
 ## Features & Usage
 

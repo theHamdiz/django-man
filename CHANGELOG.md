@@ -16,3 +16,9 @@ All notable changes to the "django-man" extension will be documented in this fil
 - Enhanced readme file.
 
 ---
+
+## [V 0.0.3]
+
+- Fixed readme file issues.
+
+---
