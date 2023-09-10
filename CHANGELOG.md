@@ -2,8 +2,17 @@
 
 All notable changes to the "django-man" extension will be documented in this file.
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
+---
 
-## [Unreleased]
+## [V 0.0.1]
 
 - Initial release
+
+---
+
+## [V 0.0.2]
+
+- Added some security checks.
+- Enhanced readme file.
+
+---
